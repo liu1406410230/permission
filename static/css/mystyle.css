@@ -1,0 +1,43 @@
+
+.alarm_lab{
+ width:230px;
+ margin:10px auto;
+ margin-bottom: 40px;
+ text-align: center;
+}
+.alarm_red,.alarm_navy,.alarm_green{
+  margin-right:10px;color:#fff;
+  float:left;
+  font-weight: 500;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+  border: 1px solid transparent;
+  -webkit-box-shadow: inset 0px -2px 0px 0px rgba(0, 0, 0, 0.09);
+  -moz-box-shadow: inset 0px -2px 0px 0px rgba(0, 0, 0, 0.09);
+  box-shadow: inset 0px -1px 0px 0px rgba(0, 0, 0, 0.09);
+  
+}
+
+.alarm_red:hover,.alarm_navy:hover,.alarm_green:hover{
+  cursor:pointer
+}
+
+.alarm_red.active,.alarm_navy.active,.alarm_green.active{
+  color:#fff;
+  font-weight:bold;
+}
+
+
+.alarm_red{
+  background-color: red;
+  color: rgba(255, 255, 255, 0.8);
+}
+.alarm_navy{
+  background-color: navy;
+  color: rgba(255, 255, 255, 0.8);
+}
+.alarm_green{
+  background-color: green;
+  color: rgba(255, 255, 255, 0.8);
+}

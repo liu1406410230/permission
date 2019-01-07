@@ -1,0 +1,23 @@
+/*新增角色*/
+.add_permission_hide,.change_permission_hide{
+    display: none;
+}
+.add_permission_shade,.change_permission_shade{
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    background-color: gray;
+    opacity:0.6;
+    z-index: 100;
+}
+.add_permission_part,.change_permission_part{
+    position: fixed;
+    height: 400px;
+    width:800px;
+    top: 200px;
+    left: 25%;
+     z-index: 101;
+    background: white;
+}

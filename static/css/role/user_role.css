@@ -1,0 +1,23 @@
+/*配置*/
+.user_role_hide,.modify_role_user_hide{
+    display: none;
+}
+.user_role_shade,.modify_role_user_shade{
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    background-color: gray;
+    opacity:0.6;
+    z-index: 100;
+}
+.deploy_part,.modify_role_user_part{
+    position: fixed;
+    height: 400px;
+    width:800px;
+    top: 200px;
+    left: 25%;
+     z-index: 101;
+    background: white;
+}

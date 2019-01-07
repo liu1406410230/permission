@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>用户登录</title>
+</head>
+<body>
+    <form class='form-horizontal' action='/login/' method='POST'>
+        {% csrf_token %}
+        <div class="form-group">
+            <label>用户名：</label>
+            <input type="text" class="form-control" name="user" autocomplete="off" style="width:250px;height:30px" required oninvalid="setCustomValidity('用户名不能为空');"
+                oninput="setCustomValidity('');">
+            <br><br>
+            <label>密&nbsp;&nbsp;&nbsp;码：</label>
+            <input type="password" class="form-control" name="pwd" autocomplete="off" style="width:250px;height:30px" required oninvalid="setCustomValidity('密码不能为空');"
+                oninput="setCustomValidity('');">
+        </div>
+        <br>
+        <div class="form-group">
+            <div class="col-lg-offset-2 col-lg-10">
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <button class="btn btn-sm btn-white" type="submit">登录</button>
+            </div>
+        </div>
+    </form>
+</body>
+</html>
